@@ -1,19 +1,161 @@
-#logo a img{
-	width: 35%;
-	height: 40%;
+/*** RESETS ***/
+*{
+	margin: 0;
+	padding: 0;
 }
 
-#twitterlogo, #facelogo{
-	width: 50px;
-	height: 50px;
+html,body,h1,h2,h2,h3,h4,ul,li{
+	margin: 0;
 }
 
-#slide ul li img{
-	width: 50%;
-	height: 50%;
+h1 img{
+	display: block;
 }
 
-#empresas img{
-	width: 20%;
-	height: 25%;
+img {
+	border: 0;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nf{
+	clear: both;
+}
+
+/**** estilos generales ****/
+
+body{
+	font-size: 12px;
+	margin: 0 auto;
+}
+
+header{
+	background: url(../images/bg_header.jpg);
+	border-bottom: 5px solid #7e0001;
+	height: 87px;
+}
+
+nav{
+	background: url(../images/bg_menu.jpg);
+	height: 30px;
+}
+
+	nav ul{
+		list-style: none;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+		
+		nav ul li{
+			display: inline-block;
+			padding-left: 65px;
+		}
+			nav ul li a{
+				color: #fff;
+				display: block;
+				font-family: verdana;
+				height: 13px;
+				line-height: 13px;
+				padding: 8px;
+				text-transform: uppercase;
+				transition: all 0.5s ease-in;
+				-webkit-transition: all 0.5s ease-in;
+			}
+				nav a:hover{
+					border-radius: 5px;
+					background: url(../images/btn_hover.jpg) repeat-x;
+					transition: all 0.5s ease-out;
+					-webkit-transition: all 0.5s ease-out;
+				}
+section{
+
+}
+
+article{
+
+}
+
+footer{
+	background: #c3c3c3;
+	text-align: center;
+}
+
+/*** ID'S***/
+
+#cont_header{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#logo{
+	height: 65px;
+	margin-left: 65px;
+	padding-top: 10px;
+	width: 137px;
+}
+
+#galeria{
+	background: #2a2929;
+	min-height: 236px;
+}
+
+#cont_galeria{
+	color: #fff;
+	font-weight: normal;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#cont_galeria h1{
+	font-family: "Myriad Pro", arial;
+	font-size: 36px;
+	padding-top: 5px;
+}
+
+#cont_galeria p{
+	font-family: tahoma, arial;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: justify;
+	width: 395px;
+}
+
+#plus, #shopping{
+	color: #fff;
+	background: url(../images/add.png) no-repeat;
+	display: inline-block;
+	font-size: 14px;
+	height: 22px;
+	padding: 10px 0 0 40px;
+	vertical-align: top;
+}
+
+#cont_galeria #shopping{
+	background: url(../images/shopping_cart.png) no-repeat;
+}
+
+#cont_galeria a:hover{
+	text-decoration: underline;
+}
+
+#cont_galeria #slide_galeria{
+	border: 5px solid #fff;
+	float: right;
+	max-width: 350px;
+	margin-right: 58px;
+	position: relative;
+	top: 8px;
+}
+
+#slide_galeria ul{
+	list-style: none;
+}
+
+#slide_galeria ul li{
+	height: 204px;
+	width: 340px;
 }

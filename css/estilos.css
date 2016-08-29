@@ -159,3 +159,149 @@ footer{
 	height: 204px;
 	width: 340px;
 }
+
+#cont_contenido{
+	color: #000;
+	font-size: 14px;
+	font-family: Verdana, arial;
+	font-weight: normal;
+	max-width: 960px;
+	margin: 0px auto;
+	text-align: justify;
+}
+
+#post, #slide{
+	float: left;
+	width: 65%;
+	padding-bottom: 50px;
+}
+
+#post h1{
+	font-family: "Myriad Pro", arial;
+	font-size: 24px;
+	padding-top: 25px;
+}
+
+#post p{
+	padding-top: 15px;
+	width: 550px;
+}
+
+#post #lista{
+	border-radius: 5px;
+	background: rgba(0,0,0,0.3);
+	display: inline-block;
+	list-style: none;
+	margin-top: 8px;
+	margin-left: 15px;
+	padding: 10px;
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5 ease-in;
+}
+
+#lista{
+	box-shadow: 0 0 8px #000;
+	-webkit-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5 ease-out;
+}
+
+#post #lista li{
+	background: url(../images/bullet.png) no-repeat;
+	color: #000;
+	font-family: "Myriad Pro", arial;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+#slide{
+	background: rgba(0,0,0,0.3);
+	margin-top: 25px;
+	padding: 15px;
+	width: 220px;
+	transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+}
+
+#slide:hover{
+	box-shadow: 0 0 8px; #000;
+}
+
+#slide ul{
+	list-style: none;
+}
+
+#slide ul li{
+	padding-top: 5px;
+}
+
+#slide img{
+	border: 5px solid #fff;
+}
+
+#icons_sociales{
+	border-top: 1px solid #979797
+	margin-top: 8px;
+	padding-left: 8px;
+}
+
+#icons_sociales img{
+	border: 0;
+	padding-top: 10px;
+}
+
+#prefooter{
+	background: #ccc;
+}
+
+#cont_prefooter{
+	color: #fff;
+	font-family: verdana, arial;
+	font-size: 25px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#state{
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#state #clientes{
+	float: left;
+	max-width: 30%;
+	padding-left: 110px;
+	padding-top: 20px;
+	text-shadow: 0 0 1px #000;
+}
+
+#empresas{
+	max-width: 60%;
+	margin-left: 50px;
+	padding-left: 120px;
+	padding-top: 5px;
+}
+
+#empresas img{
+	height: 100px;
+	width: 100px;
+}
+
+#cont_footer{
+	color: #fff;
+	font-size: 15px;
+	font-family: verdana;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 15px;
+	text-shadow: 1px 1px 5px #000;
+}
+
+#cont_footer a{
+	border-bottom: 1px dashed #fff;
+}
